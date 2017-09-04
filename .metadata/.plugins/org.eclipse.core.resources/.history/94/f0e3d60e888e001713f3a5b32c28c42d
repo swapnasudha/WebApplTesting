@@ -1,0 +1,8 @@
+<suite name="Grid Testing" parallel="tests">
+
+ <test name="on firefox">
+ <parameter name="Browser" value="firefox"/>
+  <classes>
+     <class name="grrid.CrossBrowser_CrossPlatformTesting"/>
+  </classes>
+</test>

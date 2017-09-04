@@ -1,0 +1,22 @@
+
+<suite name="Grid Testing">
+
+ <test name="on firefox">
+ <parameter name="Browser" value="firefox"/>
+  <classes>
+     <class name="grrid.CrossBrowser_CrossPlatformTesting"/>
+  </classes>
+</test>
+
+
+
+ <test name="on Chrome">
+
+ <parameter name="Browser" value="chrome"/>
+
+  <classes>
+     <class name="grrid.CrossBrowser_CrossPlatformTesting"/>
+  </classes>
+</test>
+
+</suite>

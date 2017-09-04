@@ -1,0 +1,27 @@
+
+<suite name="Application Testing" parallel="tests">
+
+<test name="NewToursApplicationLogInTest">
+      <classes>
+      <class name="newToursTest.NewToursLogInTest"/>
+    </classes>
+  </test> 
+  
+  
+  
+  <test name="facebookApplicationTesting">
+  <classes>
+ <class name="facebook.Facebook_CaptureTitle"/>
+  </classes>
+</test>
+
+ <test name="Gmail_TestNG">
+  <classes>
+ <class name="newToursTest.Gmail_TestNG"/>
+  </classes>
+</test>
+
+
+
+  </suite>
+

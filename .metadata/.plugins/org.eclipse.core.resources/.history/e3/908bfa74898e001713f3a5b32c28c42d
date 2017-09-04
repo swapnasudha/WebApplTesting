@@ -1,0 +1,26 @@
+package grid;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Grid_NewToursTest {
+	
+	@Parameters("Browser")
+	
+	
+	@Test
+	
+	public void NewToursLaunch(String b)
+	{
+		
+       System.out.println(b);
+		
+		DesiredCapabilities cap=null;
+		
+		
+	}
+	
+	
+
+}

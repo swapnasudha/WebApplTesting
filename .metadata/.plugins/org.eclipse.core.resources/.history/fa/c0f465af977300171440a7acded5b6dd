@@ -1,0 +1,30 @@
+package day3;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ValidatingFaceBookURL {
+
+	public static void main(String[] args) {
+		
+		FirefoxDriver Driver = new FirefoxDriver();
+	    Driver.get("http://Facebook.com");
+	    Driver.getTitle();
+	    System.out.println(Driver.getTitle());
+        System.out.println(Driver.getCurrentUrl());	
+        String ExpectedTitle = "Facebook - Log In or Sign Up"; // Client Requirement
+        String ActualTitle = Driver.getTitle();
+        if(ActualTitle.equals(ExpectedTitle))
+        {
+        	System.out.println("The Title Matched ....Pass");
+        }
+        
+        else
+        	
+        {
+        	System.out.println("The title Mismatched...Fail");        	
+		
+				
+        }
+	}
+
+}

@@ -1,0 +1,21 @@
+<suite name="Grid Testing" parallel="tests">
+
+ <test name="on firefox">
+ <parameter name="Browser" value="firefox"/>
+  <classes>
+     <class name="grid.Grid_NewToursTest"/>
+  </classes>
+</test>
+
+
+
+ <test name="on Chrome">
+
+ <parameter name="Browser" value="chrome"/>
+
+  <classes>
+     <class name="grid.Grid_NewToursTest"/>
+  </classes>
+</test>
+
+</suite>

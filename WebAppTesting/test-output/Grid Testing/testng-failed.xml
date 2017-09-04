@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid Testing]" parallel="tests">
+  <parameter name="Browser" value="chrome"/>
+  <test name="on Chrome(failed)" parallel="tests">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="grrid.CrossBrowser_CrossPlatformTesting">
+        <methods>
+          <include name="FaceBookLaunch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grrid.CrossBrowser_CrossPlatformTesting -->
+    </classes>
+  </test> <!-- on Chrome(failed) -->
+  <test name="on firefox(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="grrid.CrossBrowser_CrossPlatformTesting">
+        <methods>
+          <include name="FaceBookLaunch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grrid.CrossBrowser_CrossPlatformTesting -->
+    </classes>
+  </test> <!-- on firefox(failed) -->
+</suite> <!-- Failed suite [Grid Testing] -->
